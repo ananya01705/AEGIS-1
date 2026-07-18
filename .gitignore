@@ -1,0 +1,22 @@
+# Virtual environment (local packages)
+venv/
+
+# Sensitive API credentials & keys (Crucial to block!)
+api_key_details.txt
+
+# Old code versions, scratchpads, and historical iteration files
+app.py
+app1.txt
+app2.py
+app3.py
+code.txt
+tech_and_judges_mode.txt
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+Dockerfile
