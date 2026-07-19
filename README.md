@@ -1,55 +1,408 @@
-# 🛰️ AEGIS-1: Autonomous Space Traffic Management & Mission Preservation Systems
+# 🛰️ AEGIS-1
+# Autonomous Space Traffic Management & Mission Preservation System
 
-AEGIS-1 is a real-time, high-fidelity monitoring dashboard designed to track space debris corridors and orchestrate autonomous collision avoidance maneuvers. When human-in-the-loop ground control latency window thresholds are exceeded, AEGIS-1 leverages deterministic physics modeling to evaluate, select, and execute optimal intercept vectors to secure critical orbital assets.
+> Protecting satellites when time becomes the greatest threat.
 
-## 🚀 Key Features
-* **Real-Time Orbital Intercept Canvas:** Interactive 3D visualization mapping live satellite trajectories against hypervelocity debris clouds.
-* **Autonomous Avoidance Matrix:** Evaluates multiple delta-V path vectors deterministically to secure safe clearance radiuses under 10 seconds.
-* **Onboard Master Agent Intelligence:** Generates automated, context-aware mission summaries immediately following threat mitigation sequences.
-* **Telemetry Core Analytics:** Instant monitoring of structural integrity, avionics core health, and composite yield efficiency metrics.
+---
 
-## 🛠️ Tech Stack
-* **Frontend Dashboard:** Streamlit
-* **3D Visualizations:** Plotly / Interactive Canvas Architecture
-* **Language:** Python 3.x
+# MISSION SCENARIO
 
-## 🏁 Getting Started
+------------------------------------------------------------
 
-### Prerequisites
-Ensure you have Python installed, then install the required dependencies:
+SATELLITE STATUS
+
+                     OPERATIONAL
+
+------------------------------------------------------------
+
+17 HYPERVELOCITY DEBRIS OBJECTS DETECTED
+
+------------------------------------------------------------
+
+COLLISION PROBABILITY
+
+                           98 %
+
+------------------------------------------------------------
+
+IMPACT WINDOW
+
+                       8.5 Seconds
+
+------------------------------------------------------------
+
+GROUND STATION RESPONSE TIME
+
+                       14.4 Seconds
+
+------------------------------------------------------------
+
+MISSION STATUS
+
+                FAILED (Human Intervention)
+
+------------------------------------------------------------
+
+AEGIS-1 ACTIVATED
+
+↓
+
+25 Autonomous Trajectories Generated
+
+↓
+
+Future Threat Analysis Complete
+
+↓
+
+Mission Survivability Analysis Complete
+
+↓
+
+Emergency Protocol Activated
+
+↓
+
+Gemini Master Agent Authorized Maneuver
+
+↓
+
+Autonomous Response Time : 1.6 Seconds
+
+↓
+
+MISSION SUCCESSFUL
+
+------------------------------------------------------------
+
+
+# Why AEGIS-1 Exists
+
+Human-in-the-loop satellite collision response systems are inherently constrained by communication latency. In time-critical orbital collision scenarios, satellites may have only a few seconds before impact—often less than the time required for communication, authorization, and maneuver execution from ground stations.
+
+AEGIS-1 addresses this challenge by bringing autonomous mission preservation onboard the spacecraft itself.
+
+Built upon a deterministic Code + AI Hybrid Architecture, AEGIS-1 combines orbital physics, future threat prediction, mission survivability analysis, and Gemini-powered reasoning to autonomously authorize mission-preserving actions when human intervention becomes infeasible.
+
+
+---
+
+# Why Autonomous AI?
+
+AEGIS-1 was designed around a simple question:
+
+> What happens when a satellite has only 8.5 seconds before impact but requires 14.4 seconds to receive human authorization?
+
+The answer is simple.
+
+Mission failure.
+
+AEGIS-1 solves this problem by:
+
+- Predicting future orbital threats.
+- Generating multiple avoidance trajectories.
+- Performing mission survivability analysis.
+- Optimizing fuel consumption.
+- Monitoring spacecraft subsystem health.
+- Activating emergency autonomous protocols.
+- Authorizing optimal mission-preserving maneuvers in real time.
+
+Human Response Time:
+
+> 14.4 Seconds
+
+AEGIS-1 Autonomous Response:
+
+> 1.6 Seconds
+
+
+---
+
+# System Architecture
+
+
+                    AEGIS-1
+
+                         │
+                         ▼
+
+                  Threat Detection
+
+                         │
+                         ▼
+
+               Future Threat Prediction
+
+                         │
+                         ▼
+
+                Physics Engine Loop
+
+                         │
+                         ▼
+
+              Generate 25 Trajectories
+
+                         │
+                         ▼
+
+                Mission Survivability
+
+                         │
+                         ▼
+
+                 Resource Allocation
+
+                         │
+                         ▼
+
+                 Emergency Protocols
+
+                         │
+                         ▼
+
+                  Gemini Master Agent
+
+                         │
+                         ▼
+
+                 Mission Authorization
+
+                         │
+                         ▼
+
+                 Autonomous Maneuver
+
+                         │
+                         ▼
+
+                    Mission Success
+
+
+
+---
+
+# Core Capabilities
+
+### Autonomous Space Traffic Management
+
+- Real-time orbital collision analysis.
+- Hypervelocity debris threat monitoring.
+- Autonomous maneuver planning.
+
+### Future Threat Prediction Engine
+
+- Forward orbital threat propagation.
+- Secondary conjunction analysis.
+- Future collision probability prediction.
+
+### Mission Survivability Analysis
+
+- Multi-variable survivability scoring.
+- Compound mission confidence evaluation.
+- Autonomous decision optimization.
+
+### Autonomous Trajectory Planner
+
+- Generates 25 unique avoidance trajectories.
+- Computes delta-V requirements.
+- Calculates fuel consumption metrics.
+- Selects optimal mission-preserving paths.
+
+### Emergency Protocol State Engine
+
+- NOMINAL
+- CAUTION
+- HIGH RISK
+- CRITICAL THREAT
+- AUTONOMOUS LOCKDOWN
+
+### Spacecraft Health Monitoring
+
+Real-time monitoring of:
+
+- Structural Integrity
+- Avionics Health
+- Thruster Loads
+- Fuel Consumption
+- Orbital Stability
+- Resource Allocation Metrics
+
+### Gemini Master Agent
+
+Provides:
+
+- Mission Reports
+- Autonomous Reasoning Logs
+- Threat Assessments
+- Fuel Optimization Reports
+- Mission Authorization Decisions
+
+---
+
+# Mission Control Workflow
+
+
+
+               INITIALIZE ORBITAL SCAN
+                            │
+                            ▼
+                     Threat Detection
+                            │
+                            ▼
+                 Collision Probability Analysis
+                            │
+                            ▼
+                  Future Threat Prediction
+                            │
+                            ▼
+                    Generate 25 Trajectories
+                            │
+                            ▼
+                    Mission Survivability
+                            │
+                            ▼
+                    Emergency Protocol Check
+                            │
+                            ▼
+                      Gemini Reasoning
+                            │
+                            ▼
+                     Autonomous Decision
+                            │
+                            ▼
+                     Orbital Maneuver
+                            │
+                            ▼
+                     Mission Successful
+
+
+---
+
+# Demo Flow
+
+1. Select an orbital collision scenario.
+2. Initialize the orbital scan.
+3. Detect hypervelocity debris threats.
+4. Compute collision probabilities.
+5. Predict future orbital threats.
+6. Generate 25 autonomous trajectories.
+7. Perform mission survivability analysis.
+8. Activate emergency protocols if required.
+9. Generate Gemini mission reports.
+10. Authorize autonomous maneuvers.
+11. Visualize mission success using Mission Control.
+
+
+---
+
+# Technology Stack
+
+## Google Technologies
+
+- Gemini 2.5 Flash
+- Google AI Studio
+- Google GenAI SDK
+
+## Core Technologies
+
+- Python 3.x
+- Streamlit
+- Plotly
+- NumPy
+- Pandas
+- Docker
+- Git
+- GitHub
+
+## Architecture
+
+- Deterministic Orbital Physics Engine
+- Future Threat Prediction Engine
+- Mission Survivability Framework
+- Emergency Protocol State Machine
+- Autonomous Decision System
+- Latency Analysis Framework
+- Mission Confidence Scoring Engine
+
+
+---
+
+# Installation Guide
+
+Clone the repository.
+
+```bash
+git clone <YOUR_REPOSITORY_URL>
+
+cd AEGIS-1
+```
+
+Install dependencies.
+
 ```bash
 pip install -r requirements.txt
-Running the Application
-Launch the production dashboard locally by running:
-streamlit run app4.py
-MISSION SCENARIO
--------------------------------------------------
-Satellite Status:          OPERATIONAL
--------------------------------------------------
-17 debris objects detected.
--------------------------------------------------
-Collision probability:     98%
--------------------------------------------------
-Impact Window:             8.5 seconds
--------------------------------------------------
-Ground Station Latency:    14.4 seconds
--------------------------------------------------
-RESULT:                    MISSION FAILURE (Human-in-the-loop)
--------------------------------------------------
-AEGIS-1 ACTIVATED...
--------------------------------------------------
-25 trajectories generated.
--------------------------------------------------
-Autonomous Response Time:  1.6 seconds
--------------------------------------------------
-RESULT:                    MISSION SUCCESSFUL (Collision Avoided)
--------------------------------------------------
-## 🌌 Why AEGIS-1 Exists
-Human-in-the-loop satellite collision response systems are inherently constrained by communication latency, making them inadequate for time-critical orbital collision scenarios. When hypervelocity debris corridors present impact windows shorter than the time required for ground-station authorization, satellites require autonomous onboard intelligence. 
+```
 
-AEGIS-1 is a **Latency-Aware Autonomous Orbital Decision System** built to predict future threats, execute mission survivability analysis, and authorize optimal avoidance maneuvers in real time when human intervention becomes impossible.
-## 🔮 Future Development Roadmap
-You can track the rollout schedule for subsequent updates below:
-- [ ] **Dockerization Deployment:** Containerize the Streamlit environment via a production `Dockerfile` for seamless deployment.
-- [ ] **1-Click Mission Replay Mode:** Activate the sidebar simulation controls to run automated stress-test scenarios.
-- [ ] **Advanced Intercept Telemetry:** Expand the interactive 3D canvas engine to map secondary threat fragmentation debris fields.
+Run the application.
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# Screenshots
+
+Add screenshots of:
+
+- Mission Control Dashboard
+- Orbital Intercept Canvas
+- Future Threat Prediction Engine
+- Gemini Mission Reports
+- Emergency Protocol Dashboard
+- Mission Confidence Metrics
+- Autonomous Lockdown Protocols
+
+
+---
+
+# Future Scope
+
+- NASA Dataset Integrations.
+- Advanced Orbital Simulations.
+- Multi-Satellite Fleet Coordination.
+- Real-time Space Weather Analysis.
+- Autonomous Deep Space Mission Support.
+- Distributed Orbital Defense Networks.
+
+
+---
+
+# License
+
+This project was developed as part of the Google AI Hackathon.
+
+---
+
+# Contributors
+
+- Your Name(s)
+
+
+---
+
+# Final Statement
+
+
+> Human Response Time : 14.4 Seconds
+
+> Impact Window : 8.5 Seconds
+
+> AEGIS-1 Response Time : 1.6 Seconds
+
+
+When communication latency becomes the greatest threat, AEGIS-1 ensures that mission preservation is never left waiting.
+
+
+# "Protecting satellites when time becomes the greatest threat."
