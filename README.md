@@ -365,13 +365,6 @@ This project was developed as part of the Google AI Hackathon.
 
 ---
 
-# Contributors
-
-- Your Name(s)
-
-
----
-
 # Final Statement
 
 
