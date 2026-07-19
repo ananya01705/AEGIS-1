@@ -5,7 +5,7 @@ venv/
 api_key_details.txt
 
 # Old code versions, scratchpads, and historical iteration files
-app.py
+app0.py
 app1.txt
 app2.py
 app3.py
@@ -20,3 +20,4 @@ __pycache__/
 .DS_Store
 Thumbs.db
 Dockerfile
+.dockerignore
