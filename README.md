@@ -19,7 +19,7 @@
 
 ---
 
-# The Problem In One Sentence
+# The Problem :
 
 > ### A satellite may have only 8.5 seconds before impact while human authorization requires approximately 14.4 seconds.
 
