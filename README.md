@@ -22,6 +22,32 @@ pip install -r requirements.txt
 Running the Application
 Launch the production dashboard locally by running:
 streamlit run app4.py
+MISSION SCENARIO
+-------------------------------------------------
+Satellite Status:          OPERATIONAL
+-------------------------------------------------
+17 debris objects detected.
+-------------------------------------------------
+Collision probability:     98%
+-------------------------------------------------
+Impact Window:             8.5 seconds
+-------------------------------------------------
+Ground Station Latency:    14.4 seconds
+-------------------------------------------------
+RESULT:                    MISSION FAILURE (Human-in-the-loop)
+-------------------------------------------------
+AEGIS-1 ACTIVATED...
+-------------------------------------------------
+25 trajectories generated.
+-------------------------------------------------
+Autonomous Response Time:  1.6 seconds
+-------------------------------------------------
+RESULT:                    MISSION SUCCESSFUL (Collision Avoided)
+-------------------------------------------------
+## 🌌 Why AEGIS-1 Exists
+Human-in-the-loop satellite collision response systems are inherently constrained by communication latency, making them inadequate for time-critical orbital collision scenarios. When hypervelocity debris corridors present impact windows shorter than the time required for ground-station authorization, satellites require autonomous onboard intelligence. 
+
+AEGIS-1 is a **Latency-Aware Autonomous Orbital Decision System** built to predict future threats, execute mission survivability analysis, and authorize optimal avoidance maneuvers in real time when human intervention becomes impossible.
 ## 🔮 Future Development Roadmap
 You can track the rollout schedule for subsequent updates below:
 - [ ] **Dockerization Deployment:** Containerize the Streamlit environment via a production `Dockerfile` for seamless deployment.
