@@ -300,7 +300,7 @@ Provides:
 
 ## Google Technologies
 
-- Gemini 2.5 Flash
+- Gemini 3.5 Flash
 - Google AI Studio
 - Google GenAI SDK
 
@@ -310,7 +310,7 @@ Provides:
 - Streamlit
 - Plotly
 - NumPy
-- Pandas
+- pandas
 - Docker
 - Git
 - GitHub
@@ -350,34 +350,14 @@ Run the application.
 streamlit run app.py
 ```
 
----
-
-# Screenshots
-
-Add screenshots of:
-
-- Mission Control Dashboard
-- Orbital Intercept Canvas
-- Future Threat Prediction Engine
-- Gemini Mission Reports
-- Emergency Protocol Dashboard
-- Mission Confidence Metrics
-- Autonomous Lockdown Protocols
-
-
----
-
 # Future Scope
 
-- NASA Dataset Integrations.
-- Advanced Orbital Simulations.
-- Multi-Satellite Fleet Coordination.
-- Real-time Space Weather Analysis.
-- Autonomous Deep Space Mission Support.
-- Distributed Orbital Defense Networks.
-
-
----
+- <kbd>NASA Dataset Integrations.</kbd>
+- <kbd>Advanced Orbital Simulations.</kbd>
+- <kbd>Multi-Satellite Fleet Coordination.</kbd>
+- <kbd>Real-time Space Weather Analysis.</kbd>
+- <kbd>Autonomous Deep Space Mission Support.</kbd>
+- <kbd>Distributed Orbital Defense Networks.</kbd>
 
 # License
 
